@@ -28,6 +28,20 @@ struct RecipesView: View {
         DishesView()
           .frame(maxWidth: 640)
         
+        // MARK: - AVOCADO FACTS
+        Text("Avocado Facts")
+          .titleModifier()
+        
+        TabView {
+          ForEach(factData) { fact in
+            FactView(fact: fact)
+              .padding(.leading, 60)
+              .padding(.trailing, 20)
+          }
+        }
+        .tabViewStyle(.page(indexDisplayMode: .never))
+        .frame(height: 135)
+        
         // MARK: - FOOTER
         VStack(alignment: .center, spacing: 20) {
           Text("All About Avocados")

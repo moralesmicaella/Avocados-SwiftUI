@@ -40,7 +40,7 @@ struct DishesRowView: View {
 // MARK: - PREVIEW
 struct DishesRowView_Previews: PreviewProvider {
   static var previews: some View {
-    DishesRowView(dish: dishesData["toast"], column: .left)
+    DishesRowView(dish: dishData["toast"], column: .left)
       .previewLayout(.sizeThatFits)
       .padding()
   }

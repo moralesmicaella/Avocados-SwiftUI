@@ -1,5 +1,5 @@
 //
-//  DishesModel.swift
+//  DishModel.swift
 //  Avocados
 //
 //  Created by Micaella Morales on 3/3/22.

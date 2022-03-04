@@ -1,5 +1,5 @@
 //
-//  DishesData.swift
+//  DishData.swift
 //  Avocados
 //
 //  Created by Micaella Morales on 3/3/22.
@@ -8,7 +8,7 @@
 import Foundation
 
 
-let dishesData: [String: Dish] = [
+let dishData: [String: Dish] = [
   "toast": Dish(name: "Toast", image: "icon-toasts"),
   "tacos": Dish(name: "Tacos", image: "icon-tacos"),
   "salad": Dish(name: "Salad", image: "icon-salads"),
