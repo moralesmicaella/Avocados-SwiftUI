@@ -8,8 +8,8 @@
 import SwiftUI
 
 // COLORS
-let darkShadow: Color = Color("ColorBlackTransparentDark")
-let lightShadow: Color = Color("ColorBlackTransparentLight")
+let blackDarkTransparent: Color = Color("ColorBlackTransparentDark")
+let blackLightTransparent: Color = Color("ColorBlackTransparentLight")
 let lightGreen: Color = Color("ColorGreenLight")
 let mediumGreen: Color = Color("ColorGreenMedium")
 let darkGreen: Color = Color("ColorGreenDark")

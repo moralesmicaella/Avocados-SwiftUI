@@ -19,7 +19,7 @@ struct AvocadosView: View {
         .resizable()
         .scaledToFit()
         .frame(width: 240, height: 240)
-        .shadow(color: darkShadow, radius: 12, x: 0, y: 8)
+        .shadow(color: blackDarkTransparent, radius: 12, x: 0, y: 8)
         .scaleEffect(isAnimating ? 1.0 : 0.9)
         .opacity(isAnimating ? 1.0 : 0.9)
         .animation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: isAnimating)
@@ -29,7 +29,7 @@ struct AvocadosView: View {
           .font(.system(size: 42, weight: .bold, design: .serif))
           .foregroundColor(.white)
           .padding()
-          .shadow(color: darkShadow, radius: 4, x: 0, y: 4)
+          .shadow(color: blackDarkTransparent, radius: 4, x: 0, y: 4)
         
         Text("Creamy, green, and full of nutrients! Avocado is a powerhouse ingredient at any meal. Enjoy these handpicked avocado recipes for breakfast, lunch, dinner & more!")
           .font(.system(.headline, design: .serif))
