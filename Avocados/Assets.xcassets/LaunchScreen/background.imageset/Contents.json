@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "background-2.jpg",
+      "filename" : "background-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +12,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "background-1.jpg",
+      "filename" : "background.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -23,12 +23,12 @@
           "value" : "dark"
         }
       ],
-      "filename" : "background-dark.jpg",
+      "filename" : "background-dark.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "background@2x-2.jpg",
+      "filename" : "background@2x-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -39,7 +39,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "background@2x-1.jpg",
+      "filename" : "background@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -50,12 +50,12 @@
           "value" : "dark"
         }
       ],
-      "filename" : "background-dark@2x.jpg",
+      "filename" : "background-dark@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "background@3x-2.jpg",
+      "filename" : "background@3x-1.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -66,7 +66,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "background@3x-1.jpg",
+      "filename" : "background@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -77,7 +77,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "background-dark@3x.jpg",
+      "filename" : "background-dark@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
