@@ -12,6 +12,10 @@
 		249628F227CE21D60050D6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249628F127CE21D60050D6F6 /* Assets.xcassets */; };
 		249628F527CE21D60050D6F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249628F427CE21D60050D6F6 /* Preview Assets.xcassets */; };
 		24B6E05D27D1BE0500DEA637 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B6E05C27D1BE0500DEA637 /* Launch Screen.storyboard */; };
+		24B6E06127D1C63C00DEA637 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06027D1C63C00DEA637 /* AvocadosView.swift */; };
+		24B6E06327D1C70100DEA637 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06227D1C70100DEA637 /* RipeningStagesView.swift */; };
+		24B6E06727D1C75700DEA637 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06627D1C75700DEA637 /* RecipesView.swift */; };
+		24B6E06927D1C9B300DEA637 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06827D1C9B300DEA637 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		249628F127CE21D60050D6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		249628F427CE21D60050D6F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24B6E05C27D1BE0500DEA637 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		24B6E06027D1C63C00DEA637 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		24B6E06227D1C70100DEA637 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		24B6E06627D1C75700DEA637 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		24B6E06827D1C9B300DEA637 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,8 @@
 			children = (
 				249628FB27CE22BB0050D6F6 /* App */,
 				249628FC27CE22C30050D6F6 /* View */,
+				24B6E05F27D1C5C400DEA637 /* Model */,
+				24B6E05E27D1C5BF00DEA637 /* Data */,
 				249628F127CE21D60050D6F6 /* Assets.xcassets */,
 				249628F327CE21D60050D6F6 /* Preview Content */,
 				24B6E05C27D1BE0500DEA637 /* Launch Screen.storyboard */,
@@ -82,8 +92,26 @@
 			isa = PBXGroup;
 			children = (
 				249628EF27CE21D10050D6F6 /* ContentView.swift */,
+				24B6E06627D1C75700DEA637 /* RecipesView.swift */,
+				24B6E06027D1C63C00DEA637 /* AvocadosView.swift */,
+				24B6E06227D1C70100DEA637 /* RipeningStagesView.swift */,
+				24B6E06827D1C9B300DEA637 /* SettingsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		24B6E05E27D1C5BF00DEA637 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		24B6E05F27D1C5C400DEA637 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				249628F027CE21D10050D6F6 /* ContentView.swift in Sources */,
+				24B6E06327D1C70100DEA637 /* RipeningStagesView.swift in Sources */,
 				249628EE27CE21D10050D6F6 /* AvocadosApp.swift in Sources */,
+				24B6E06927D1C9B300DEA637 /* SettingsView.swift in Sources */,
+				24B6E06727D1C75700DEA637 /* RecipesView.swift in Sources */,
+				24B6E06127D1C63C00DEA637 /* AvocadosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
