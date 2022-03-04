@@ -16,6 +16,7 @@
 		24B6E06327D1C70100DEA637 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06227D1C70100DEA637 /* RipeningStagesView.swift */; };
 		24B6E06727D1C75700DEA637 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06627D1C75700DEA637 /* RecipesView.swift */; };
 		24B6E06927D1C9B300DEA637 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06827D1C9B300DEA637 /* SettingsView.swift */; };
+		24B6E06B27D1CC2D00DEA637 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E06A27D1CC2D00DEA637 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		24B6E06227D1C70100DEA637 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		24B6E06627D1C75700DEA637 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
 		24B6E06827D1C9B300DEA637 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		24B6E06A27D1CC2D00DEA637 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				249628FC27CE22C30050D6F6 /* View */,
 				24B6E05F27D1C5C400DEA637 /* Model */,
 				24B6E05E27D1C5BF00DEA637 /* Data */,
+				24B6E06C27D1CC3100DEA637 /* Utility */,
 				249628F127CE21D60050D6F6 /* Assets.xcassets */,
 				249628F327CE21D60050D6F6 /* Preview Content */,
 				24B6E05C27D1BE0500DEA637 /* Launch Screen.storyboard */,
@@ -92,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				249628EF27CE21D10050D6F6 /* ContentView.swift */,
-				24B6E06627D1C75700DEA637 /* RecipesView.swift */,
 				24B6E06027D1C63C00DEA637 /* AvocadosView.swift */,
+				24B6E06627D1C75700DEA637 /* RecipesView.swift */,
 				24B6E06227D1C70100DEA637 /* RipeningStagesView.swift */,
 				24B6E06827D1C9B300DEA637 /* SettingsView.swift */,
 			);
@@ -112,6 +115,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		24B6E06C27D1CC3100DEA637 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				24B6E06A27D1CC2D00DEA637 /* Constant.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B6E06B27D1CC2D00DEA637 /* Constant.swift in Sources */,
 				249628F027CE21D10050D6F6 /* ContentView.swift in Sources */,
 				24B6E06327D1C70100DEA637 /* RipeningStagesView.swift in Sources */,
 				249628EE27CE21D10050D6F6 /* AvocadosApp.swift in Sources */,
