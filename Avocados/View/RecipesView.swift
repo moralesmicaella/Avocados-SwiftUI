@@ -21,13 +21,17 @@ struct RecipesView: View {
           }
         }
         
+        // MARK: - DISHES
+        Text("Avocado Dishes")
+          .titleModifier()
+        
+        DishesView()
+          .frame(maxWidth: 640)
+        
         // MARK: - FOOTER
         VStack(alignment: .center, spacing: 20) {
           Text("All About Avocados")
-            .font(.system(.title, design: .serif))
-            .fontWeight(.bold)
-            .foregroundColor(adaptiveGreen)
-            .padding(8)
+            .titleModifier()
           
           Text("Everything you wanted to know about avocados but were too afraid to ask.")
             .font(.system(.body, design: .serif))
