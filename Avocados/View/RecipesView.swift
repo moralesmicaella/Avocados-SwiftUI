@@ -15,7 +15,7 @@ struct RecipesView: View {
         // MARK: - HEADER
         ScrollView(.horizontal, showsIndicators: false) {
           HStack(alignment: .top, spacing: 0) {
-            ForEach(headerData) { header in
+            ForEach(headersData) { header in
               HeaderView(header: header)
             }
           }
@@ -33,7 +33,7 @@ struct RecipesView: View {
           .titleModifier()
         
         TabView {
-          ForEach(factData) { fact in
+          ForEach(factsData) { fact in
             FactView(fact: fact)
               .padding(.leading, 60)
               .padding(.trailing, 20)
@@ -47,7 +47,7 @@ struct RecipesView: View {
           .titleModifier()
         
         VStack(alignment: .center, spacing: 20) {
-          ForEach(recipeData) { recipe in
+          ForEach(recipesData) { recipe in
             RecipeCardView(recipe: recipe)
           }
         }

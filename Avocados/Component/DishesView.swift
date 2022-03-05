@@ -12,13 +12,13 @@ struct DishesView: View {
     HStack(alignment: .center, spacing: 4) {
       // MARK: - 1ST COLUMN
       VStack(alignment: .leading, spacing: 4) {
-        DishesRowView(dish: dishData["toast"], column: .left)
+        DishesRowView(dish: dishesData["toast"], column: .left)
         Divider()
-        DishesRowView(dish: dishData["tacos"], column: .left)
+        DishesRowView(dish: dishesData["tacos"], column: .left)
         Divider()
-        DishesRowView(dish: dishData["salad"], column: .left)
+        DishesRowView(dish: dishesData["salad"], column: .left)
         Divider()
-        DishesRowView(dish: dishData["spread"], column: .left)
+        DishesRowView(dish: dishesData["spread"], column: .left)
       } //: VSTACK
       
       // MARK: - 2ND COLUMN
@@ -36,13 +36,13 @@ struct DishesView: View {
       
       // MARK: - 3RD COLUMN
       VStack(alignment: .trailing, spacing: 4) {
-        DishesRowView(dish: dishData["guacamole"], column: .right)
+        DishesRowView(dish: dishesData["guacamole"], column: .right)
         Divider()
-        DishesRowView(dish: dishData["sandwich"], column: .right)
+        DishesRowView(dish: dishesData["sandwich"], column: .right)
         Divider()
-        DishesRowView(dish: dishData["soup"], column: .right)
+        DishesRowView(dish: dishesData["soup"], column: .right)
         Divider()
-        DishesRowView(dish: dishData["smoothie"], column: .right)
+        DishesRowView(dish: dishesData["smoothie"], column: .right)
       } //: VSTACK
     } //: HSTACK
     .font(.system(.callout, design: .serif))

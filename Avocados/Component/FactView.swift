@@ -55,7 +55,7 @@ struct FactView: View {
 // MARK: - PREVIEW
 struct FactsView_Previews: PreviewProvider {
   static var previews: some View {
-    FactView(fact: factData[0])
+    FactView(fact: factsData[0])
       .previewLayout(.fixed(width: 400, height: 220))
   }
 }

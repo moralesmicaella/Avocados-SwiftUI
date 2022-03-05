@@ -7,7 +7,7 @@
 
 import Foundation
 
-let headerData: [Header] = [
+let headersData: [Header] = [
   Header(
     image: "avocado-slice-1",
     headline: "Avocados",

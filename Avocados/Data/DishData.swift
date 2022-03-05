@@ -8,7 +8,7 @@
 import Foundation
 
 
-let dishData: [String: Dish] = [
+let dishesData: [String: Dish] = [
   "toast": Dish(name: "Toast", image: "icon-toasts"),
   "tacos": Dish(name: "Tacos", image: "icon-tacos"),
   "salad": Dish(name: "Salad", image: "icon-salads"),

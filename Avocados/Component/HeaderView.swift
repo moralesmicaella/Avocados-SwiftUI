@@ -62,7 +62,7 @@ struct HeaderView: View {
 // MARK: - PREVIEW
 struct HeaderView_Previews: PreviewProvider {
   static var previews: some View {
-    HeaderView(header: headerData[0])
+    HeaderView(header: headersData[0])
       .previewLayout(.sizeThatFits)
   }
 }
