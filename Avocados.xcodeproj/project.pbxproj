@@ -29,6 +29,9 @@
 		24B6E08227D1FAF900DEA637 /* FactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E08127D1FAF900DEA637 /* FactView.swift */; };
 		24B6E08427D1FB5700DEA637 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E08327D1FB5600DEA637 /* FactModel.swift */; };
 		24B6E08627D1FB8E00DEA637 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E08527D1FB8E00DEA637 /* FactData.swift */; };
+		24B6E08827D2D6E400DEA637 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E08727D2D6E400DEA637 /* RecipeModel.swift */; };
+		24B6E08A27D2D7BE00DEA637 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E08927D2D7BE00DEA637 /* RecipeData.swift */; };
+		24B6E08C27D2D81000DEA637 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6E08B27D2D81000DEA637 /* RecipeCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		24B6E08127D1FAF900DEA637 /* FactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactView.swift; sourceTree = "<group>"; };
 		24B6E08327D1FB5600DEA637 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 		24B6E08527D1FB8E00DEA637 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		24B6E08727D2D6E400DEA637 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		24B6E08927D2D7BE00DEA637 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		24B6E08B27D2D81000DEA637 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 				24B6E07227D1E56E00DEA637 /* HeaderData.swift */,
 				24B6E07D27D1F1E600DEA637 /* DishData.swift */,
 				24B6E08527D1FB8E00DEA637 /* FactData.swift */,
+				24B6E08927D2D7BE00DEA637 /* RecipeData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -145,6 +152,7 @@
 				24B6E07027D1E52A00DEA637 /* HeaderModel.swift */,
 				24B6E07B27D1F19900DEA637 /* DishModel.swift */,
 				24B6E08327D1FB5600DEA637 /* FactModel.swift */,
+				24B6E08727D2D6E400DEA637 /* RecipeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 				24B6E07627D1EE9900DEA637 /* DishesRowView.swift */,
 				24B6E07427D1EAF000DEA637 /* DishesView.swift */,
 				24B6E08127D1FAF900DEA637 /* FactView.swift */,
+				24B6E08B27D2D81000DEA637 /* RecipeCardView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -257,14 +266,17 @@
 				24B6E07127D1E52A00DEA637 /* HeaderModel.swift in Sources */,
 				249628F027CE21D10050D6F6 /* ContentView.swift in Sources */,
 				24B6E06327D1C70100DEA637 /* RipeningStagesView.swift in Sources */,
+				24B6E08A27D2D7BE00DEA637 /* RecipeData.swift in Sources */,
 				249628EE27CE21D10050D6F6 /* AvocadosApp.swift in Sources */,
 				24B6E08427D1FB5700DEA637 /* FactModel.swift in Sources */,
+				24B6E08C27D2D81000DEA637 /* RecipeCardView.swift in Sources */,
 				24B6E06927D1C9B300DEA637 /* SettingsView.swift in Sources */,
 				24B6E06727D1C75700DEA637 /* RecipesView.swift in Sources */,
 				24B6E06127D1C63C00DEA637 /* AvocadosView.swift in Sources */,
 				24B6E07527D1EAF000DEA637 /* DishesView.swift in Sources */,
 				24B6E07E27D1F1E600DEA637 /* DishData.swift in Sources */,
 				24B6E07C27D1F19900DEA637 /* DishModel.swift in Sources */,
+				24B6E08827D2D6E400DEA637 /* RecipeModel.swift in Sources */,
 				24B6E07327D1E56E00DEA637 /* HeaderData.swift in Sources */,
 				24B6E06F27D1DBED00DEA637 /* HeaderView.swift in Sources */,
 			);

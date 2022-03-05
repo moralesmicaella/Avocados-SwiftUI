@@ -41,6 +41,18 @@ struct RecipesView: View {
         }
         .tabViewStyle(.page(indexDisplayMode: .never))
         .frame(height: 135)
+
+        // MARK: - RECIPE CARDS
+        Text("Avocado Recipes")
+          .titleModifier()
+        
+        VStack(alignment: .center, spacing: 20) {
+          ForEach(recipeData) { recipe in
+            RecipeCardView(recipe: recipe)
+          }
+        }
+        .frame(maxWidth: 640)
+        .padding(.horizontal)
         
         // MARK: - FOOTER
         VStack(alignment: .center, spacing: 20) {
