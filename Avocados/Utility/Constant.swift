@@ -15,6 +15,7 @@ let mediumGreen: Color = Color("ColorGreenMedium")
 let darkGreen: Color = Color("ColorGreenDark")
 let adaptiveGreen: Color = Color("ColorGreenAdaptive")
 let tabColor: Color = Color("ColorTabAdaptive")
+let adaptiveAppearance: Color = Color("ColorAppearanceAdaptive")
 
 // TAB ICONS
 let branchIcon: String = "tabicon-branch"
