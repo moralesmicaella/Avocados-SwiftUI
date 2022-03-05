@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RecipeCardView: View {
   // MARK: - PROPERTY
+  @State private var showDetails: Bool = false
+  
   let recipe: Recipe
   
   // MARK: - BODY
@@ -61,6 +63,13 @@ struct RecipeCardView: View {
     .background(Color.white)
     .cornerRadius(12)
     .shadow(color: blackLightTransparent, radius: 8, x: 0, y: 0)
+    .onTapGesture {
+      hapticImpact.impactOccurred()
+      showDetails = true
+    }
+    .sheet(isPresented: $showDetails) {
+      RecipeDetailView(recipe: recipe)
+    }
   }
 }
 

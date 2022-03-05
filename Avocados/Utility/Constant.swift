@@ -21,3 +21,6 @@ let branchIcon: String = "tabicon-branch"
 let avocadoIcon: String = "tabicon-avocado"
 let recipeIcon: String = "tabicon-book"
 let settingsIcon: String = "tabicon-settings"
+
+// UX
+let hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
